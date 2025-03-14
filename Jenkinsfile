@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building the application...'
-                sh 'g++ -o hello_exec hello.cpp' // Compile the C++ file
+                sh 'g++ -o PES1UG22AM074 main.cpp' // Compile the C++ file
             }
         }
         stage('Test') {
