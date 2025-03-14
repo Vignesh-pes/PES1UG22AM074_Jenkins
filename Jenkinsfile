@@ -11,7 +11,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Running tests...'
-                sh './hello_exec' // Execute compiled C++ program
+                sh './PES1UG22AM074' // Execute compiled C++ program
             }
         }
         stage('Deploy') {
